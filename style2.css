@@ -1,0 +1,91 @@
+* {
+    list-style: none;
+    text-decoration: none;
+}
+a {
+    display: block;
+}
+.container {
+    padding: 0 50px;
+    margin: 20px auto 0;
+}
+nav {
+    width: 100%;
+    background-color: rgb(16, 80, 166);
+    color: white;
+}
+nav .container {
+    display: flex;
+    justify-content: space-between;
+}
+nav .container a {
+    color: white;
+    transition: 0.3s;
+}
+nav .container a:hover {
+    font-size: 20px;
+    color: red;
+}
+nav .container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-end;
+    gap: 60px;
+}
+
+.frst {
+    padding-top: 100px;
+    font-size: 50px;
+}
+.read {
+    background-color:  rgb(16, 80, 166); 
+    width: fit-content;
+    color: white;
+    padding: 10px 20px;
+    border: 0;
+}
+.special {
+    background-color: #ddd;
+    width: fit-content;
+    padding: 10px 20px;
+    margin: 0;
+}
+hr {
+    margin: 0;
+    border-color: #ddd;
+}
+.content .container {
+    display: flex;
+    text-align: center;
+}
+.icons1 {
+    background-color: rgb(16, 80, 166);
+    color: white;
+    padding: 40px 20px;
+    line-height: 1.8;
+}
+.icons{
+    background-color: #ddd;
+    padding: 40px 20px;
+    line-height: 1.8;
+}
+.ath {
+    padding: 10px 0;
+    font-weight: bold;
+}
+.role {
+    padding: 10px 0;
+    color:  rgb(16, 80, 166);;
+    font-weight: bold;
+}
+.full {
+    width: 100%;
+}
+footer {
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(16, 80, 166);
+    color: white;
+    font-weight: bold;
+    margin-top: 10px;
+}
